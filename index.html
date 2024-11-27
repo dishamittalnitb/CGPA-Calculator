@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expected CGPA Calculator</h1>
+        <form id="cgpa-form">
+            <div class="form-group">
+                <label for="maths">Maths:</label>
+                <input type="number" id="maths" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="fod">FOD:</label>
+                <input type="number" id="fod" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="ds">Data Structures:</label>
+                <input type="number" id="ds" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="dbms">DBMS:</label>
+                <input type="number" id="dbms" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="ppl">PPL:</label>
+                <input type="number" id="ppl" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="dcd">DCD:</label>
+                <input type="number" id="dcd" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="dbms-lab">DBMS Lab:</label>
+                <input type="number" id="dbms-lab" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="dsa-lab">DSA Lab:</label>
+                <input type="number" id="dsa-lab" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="ppl-lab">PPL Lab:</label>
+                <input type="number" id="ppl-lab" placeholder="Enter grade" required>
+            </div>
+            <div class="form-group">
+                <label for="pp">PP:</label>
+                <input type="number" id="pp" placeholder="Enter grade" required>
+            </div>
+            <button type="button" id="calculate-btn">Calculate CGPA</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
